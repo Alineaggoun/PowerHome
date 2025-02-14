@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         ObjectAnimator rotateAnimation = ObjectAnimator.ofFloat(imageView, "rotation", 0f, 360f);
-        rotateAnimation.setDuration(3000); //
+        rotateAnimation.setDuration(9000); //
         rotateAnimation.start();
 
 
