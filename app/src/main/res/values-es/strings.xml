@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PowerHome</string>
+    <string name="welcome_message">Bienvenido</string>
+    <string name="connexion">Conexión</string>
+    <string name="creer_un_compte">Crear una cuenta</string>
+    <string name="prenom">Nombre</string>
+    <string name="nom">Apellido</string>
+    <string name="email">Email</string>
+    <string name="mdp">Contraseña</string>
+    <string name="telephone">Telefono</string>
+    <string name="soumettre">Entregar</string>
+    <string name="ou">O</string>
+    <string name="connexion_facebook">Facebook</string>
+</resources>

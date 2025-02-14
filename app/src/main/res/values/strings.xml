@@ -1,0 +1,23 @@
+<resources>
+
+    <string-array name="country_codes">
+        <item>+33</item>
+        <item>+1</item>
+        <item>+44</item>
+        <item>+49</item>
+        <item>+91</item>
+    </string-array>
+
+    <string name="app_name">PowerHome</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="connexion">Connection</string>
+    <string name="creer_un_compte">Create an account</string>
+    <string name="prenom">First Name</string>
+    <string name="nom">Last Name</string>
+    <string name="email">Email</string>
+    <string name="mdp">Password</string>
+    <string name="telephone">"Phone "</string>
+    <string name="soumettre">Submit</string>
+    <string name="ou">OR</string>
+    <string name="connexion_facebook">Connect with facebook</string>
+</resources>
