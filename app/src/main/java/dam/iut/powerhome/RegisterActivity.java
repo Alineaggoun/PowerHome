@@ -67,7 +67,7 @@ public class RegisterActivity extends AppCompatActivity {
                     saisieValide = false;
                 }
                 if(saisieValide){
-                    Intent intent = new Intent(RegisterActivity.this, HabitatActivity.class);
+                    Intent intent = new Intent(RegisterActivity.this, ResultatActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("Nom", txtBoxNom.getText().toString());
                     bundle.putString("Prenom", txtBoxPrenom.getText().toString());

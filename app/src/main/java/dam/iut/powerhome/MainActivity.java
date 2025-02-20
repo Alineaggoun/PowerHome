@@ -19,15 +19,15 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-
+        // Récupération de l'ImageView depius le layout
         ImageView imageView = findViewById(R.id.image_center);
 
-
+        // Création d'une animation de rotation de 360° sur l'image
         ObjectAnimator rotateAnimation = ObjectAnimator.ofFloat(imageView, "rotation", 0f, 360f);
         rotateAnimation.setDuration(3000); //
         rotateAnimation.start();
 
-
+        // Gestion des marges pr eviter que ca deborde
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
