@@ -21,13 +21,13 @@ public class SpinnerActivity extends AppCompatActivity {
 
         Spinner spinner = findViewById(R.id.spinnerFlag);
         List<Country> items = new ArrayList<>();
-        items.add(new Country(R.drawable.facebook, "United Kingdom"));
-        items.add(new Country(R.drawable.facebook, "Sweden"));
-        items.add(new Country(R.drawable.facebook, "United States"));
-        items.add(new Country(R.drawable.facebook, "Switzerland"));
-        items.add(new Country(R.drawable.facebook, "France"));
-        items.add(new Country(R.drawable.facebook, "Japan"));
-        items.add(new Country(R.drawable.facebook, "Taiwan"));
+        items.add(new Country(R.drawable.uk, "United Kingdom"));
+        items.add(new Country(R.drawable.sweden, "Sweden"));
+        items.add(new Country(R.drawable.usa, "United States"));
+        items.add(new Country(R.drawable.switzerland, "Switzerland"));
+        items.add(new Country(R.drawable.france, "France"));
+        items.add(new Country(R.drawable.japan, "Japan"));
+        items.add(new Country(R.drawable.taiwan, "Taiwan"));
 
         // Utilisation du bon layout pour chaque élément du Spinner
         CountryAdapter adapter = new CountryAdapter(this, R.layout.item_country, items);
