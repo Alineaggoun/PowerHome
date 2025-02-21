@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Création d'une animation de rotation de 360° sur l'image
         ObjectAnimator rotateAnimation = ObjectAnimator.ofFloat(imageView, "rotation", 0f, 360f);
-        rotateAnimation.setDuration(3000); //
+        rotateAnimation.setDuration(9000); //
         rotateAnimation.start();
 
         // Gestion des marges pr eviter que ca deborde
