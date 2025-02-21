@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_first"
+        android:icon="@drawable/baseline_cruelty_free_24"
+        android:title="@string/habitats" />
+  <!--  <item
+        android:id="@+id/nav_second"
+        android:icon="@drawable/ic_menu_second"
+        android:title="@string/second_item" />
+    ... -->
+</menu>

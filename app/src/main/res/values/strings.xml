@@ -20,4 +20,7 @@
     <string name="soumettre">Submit</string>
     <string name="ou">OR</string>
     <string name="connexion_facebook">Connect with facebook</string>
+    <string name="habitats">Habitats</string>
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
 </resources>
